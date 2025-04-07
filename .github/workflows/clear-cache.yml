@@ -29,7 +29,7 @@ jobs:
             }
             console.log("Clear completed")
             
-      - name: Purge cache # Above seems not clear thouroughly, so add this to double clear
+      - name: Purge cache # Above seems not clear thouroughly, so add this to double clear 
         uses: MyAlbum/purge-cache@v2
         with:
           accessed: true # Purge caches by their last accessed time (default)
