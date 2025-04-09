@@ -1,4 +1,4 @@
-name: Custom macOS Client Generator 
+name: Custom macOS Client Generator
 run-name: Custom macOS Client Generator
 on: 
   workflow_dispatch:
